@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'histoire des jeux vidéo en France | PBL Project</title>
+    <!-- Google Fonts for Modern Gaming Look -->
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons (CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="lang-fr">
+    
+    <!-- NAVIGATION -->
+    <header id="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-gamepad"></i> <span class="fr-text">JeuxVidéo FR</span><span class="en-text">VideoGames FR</span>
+        </div>
+        <button class="mobile-toggle" id="mobile-menu-btn"><i class="fa-solid fa-bars"></i></button>
+        <nav id="nav-links">
+            <a href="#accueil"><span class="fr-text">Accueil</span><span class="en-text">Home</span></a>
+            <a href="#debuts"><span class="fr-text">Débuts</span><span class="en-text">Origins</span></a>
+            <a href="#annees80"><span class="fr-text">1980s</span><span class="en-text">1980s</span></a>
+            <a href="#entreprises"><span class="fr-text">Ubisoft/Infogrames</span><span class="en-text">Ubisoft/Infogrames</span></a>
+            <a href="#jeux"><span class="fr-text">Jeux Célèbres</span><span class="en-text">Famous Games</span></a>
+            <a href="#chronologie"><span class="fr-text">Chronologie</span><span class="en-text">Timeline</span></a>
+            <a href="#equipe"><span class="fr-text">Équipe</span><span class="en-text">Team</span></a>
+        </nav>
+        <button id="lang-toggle" class="lang-btn">
+            <span class="fr-text">🇫🇷 FR / 🇬🇧 EN</span>
+            <span class="en-text">🇬🇧 EN / 🇫🇷 FR</span>
+        </button>
+    </header>
+
+    <!-- 1. HERO SECTION -->
+    <section id="accueil" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in">
+            <!-- EDIT HERE: Hero Title -->
+            <h1>L'histoire des jeux vidéo en France</h1>
+            <h2>The History of Video Games in France</h2>
+            <p class="hero-desc">
+                <span class="fr-text">Explorez le développement de l'industrie française du jeu vidéo, de ses premiers pixels à son rayonnement mondial actuel.</span>
+                <span class="en-text">Explore the development of the French video game industry, from its early pixels to its current global influence.</span>
+            </p>
+            <div class="hero-buttons">
+                <a href="#chronologie" class="btn btn-primary"><span class="fr-text">Explorer l'histoire</span><span class="en-text">Explore History</span></a>
+                <a href="#jeux" class="btn btn-secondary"><span class="fr-text">Découvrir les jeux</span><span class="en-text">Discover Games</span></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. INTRODUCTION -->
+    <section id="introduction" class="container fade-in">
+        <div class="card intro-card">
+            <h2><span class="fr-text">Introduction</span><span class="en-text">Introduction</span></h2>
+            <!-- EDIT HERE: Introduction Text -->
+            <p class="fr-text">
+                Les jeux vidéo sont devenus un phénomène culturel et technologique mondial. La France est passée de l'importation de jeux vidéo à un créateur et exportateur majeur de jeux[cite: 2]. Les entreprises et les studios français ont contribué à la création de jeux appréciés dans le monde entier[cite: 2]. Ce projet illustre l'impact de la "French Touch", une approche unique mêlant innovation technologique et direction artistique visionnaire.
+            </p>
+            <p class="en-text">
+                Video games have become a global cultural and technological phenomenon. France went from importing video games to becoming an important creator and exporter of games[cite: 2]. French companies and studios have contributed games enjoyed around the world[cite: 2]. This project illustrates the impact of the "French Touch," a unique approach blending technological innovation with visionary art direction.
+            </p>
+        </div>
+    </section>
+
+    <!-- 3. BEGINNING OF VIDEO GAMES IN FRANCE -->
+    <section id="debuts" class="container fade-in">
+        <div class="section-header">
+            <h2><span class="fr-text">Les débuts des jeux vidéo en France</span><span class="en-text">The Beginning of Video Games in France</span></h2>
+            <div class="french-accent-line"></div>
+        </div>
+        <div class="grid-2-col">
+            <div class="text-content">
+                <p class="fr-text">Dans les années 1970, l'industrie commence avec l'arrivée des premières bornes d'arcade et de la console Magnavox Odyssey. L'essor de la micro-informatique locale, notamment avec les ordinateurs Thomson et l'invention du Minitel, a permis l'émergence d'une communauté de programmeurs pionniers en France.</p>
+                <p class="en-text">In the 1970s, the industry began with the arrival of early arcade cabinets and the Magnavox Odyssey console. The rise of local microcomputing, notably with Thomson computers and the invention of the Minitel, allowed a community of pioneer programmers to emerge in France.</p>
+            </div>
+            <div class="image-content">
+                <img src="images/early-gaming.jpg" alt="Early French Computing" class="responsive-img rounded">
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. THE 1980s -->
+    <section id="annees80" class="container bg-darker fade-in">
+        <div class="section-header">
+            <h2><span class="fr-text">Les années 1980 : La Naissance d'une Industrie</span><span class="en-text">The 1980s: Birth of an Industry</span></h2>
+            <div class="french-accent-line"></div>
+        </div>
+        <div class="mini-timeline">
+            <div class="timeline-step">
+                <div class="step-icon"><i class="fa-solid fa-computer"></i></div>
+                <h3>Début des années 80</h3>
+                <p class="fr-text">Arrivée des micro-ordinateurs dans les foyers français. Premiers jeux amateurs.</p>
+                <p class="en-text">Arrival of home microcomputers in French households. First amateur games.</p>
+            </div>
+            <div class="timeline-step">
+                <div class="step-icon"><i class="fa-solid fa-code"></i></div>
+                <h3>Milieu des années 80</h3>
+                <p class="fr-text">Création des premiers studios professionnels (Loriciels, Ére Informatique).</p>
+                <p class="en-text">Creation of the first professional studios (Loriciels, Ére Informatique).</p>
+            </div>
+            <div class="timeline-step">
+                <div class="step-icon"><i class="fa-solid fa-gamepad"></i></div>
+                <h3>Fin des années 80</h3>
+                <p class="fr-text">Développement de la "French Touch" : jeux reconnus pour leurs graphismes et leur originalité.</p>
+                <p class="en-text">Development of the "French Touch": games recognized for graphics and originality.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. UBISOFT & INFOGRAMES -->
+    <section id="entreprises" class="container fade-in">
+        <div class="section-header">
+            <h2><span class="fr-text">Ubisoft et Infogrames</span><span class="en-text">Ubisoft & Infogrames</span></h2>
+            <p class="subtitle"><span class="fr-text">Les pionniers de l'édition française</span><span class="en-text">The pioneers of French publishing</span></p>
+        </div>
+        <div class="grid-2-col">
+            <!-- Ubisoft Card -->
+            <div class="card glass-card">
+                <img src="images/ubisoft.jpg" alt="Ubisoft HQ" class="card-img">
+                <h3 class="ubisoft-color">Ubisoft</h3>
+                <ul class="fr-text">
+                    <li><strong>Création :</strong> 1986 par les frères Guillemot (Bretagne).</li>
+                    <li><strong>Rôle :</strong> Développeur et Éditeur.</li>
+                    <li><strong>Histoire :</strong> A commencé comme distributeur avant de développer des jeux. Succès international avec Rayman.</li>
+                    <li><strong>Aujourd'hui :</strong> L'une des plus grandes entreprises de jeux vidéo au monde (Assassin's Creed, Far Cry).</li>
+                </ul>
+                <ul class="en-text">
+                    <li><strong>Founded:</strong> 1986 by the Guillemot brothers (Brittany).</li>
+                    <li><strong>Role:</strong> Developer and Publisher.</li>
+                    <li><strong>History:</strong> Began as a distributor before developing games. Global success with Rayman.</li>
+                    <li><strong>Today:</strong> One of the world's largest video game companies (Assassin's Creed, Far Cry).</li>
+                </ul>
+            </div>
+            <!-- Infogrames Card -->
+            <div class="card glass-card">
+                <img src="images/infogrames.jpg" alt="Infogrames Logo" class="card-img">
+                <h3 class="infogrames-color">Infogrames</h3>
+                <ul class="fr-text">
+                    <li><strong>Création :</strong> 1983 par Bruno Bonnell et Christophe Sapet (Villeurbanne).</li>
+                    <li><strong>Rôle :</strong> Développeur et Éditeur.</li>
+                    <li><strong>Histoire :</strong> Célèbre pour son logo de tatou. Pionnier des jeux 3D avec <em>Alone in the Dark</em>.</li>
+                    <li><strong>Évolution :</strong> A acquis la marque Atari dans les années 2000 et a été rebaptisé Atari SA.</li>
+                </ul>
+                <ul class="en-text">
+                    <li><strong>Founded:</strong> 1983 by Bruno Bonnell and Christophe Sapet (Villeurbanne).</li>
+                    <li><strong>Role:</strong> Developer and Publisher.</li>
+                    <li><strong>History:</strong> Famous for its armadillo logo. Pioneered 3D gaming with <em>Alone in the Dark</em>.</li>
+                    <li><strong>Evolution:</strong> Acquired the Atari brand in the 2000s and rebranded as Atari SA.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. FAMOUS FRENCH GAMES -->
+    <section id="jeux" class="container bg-darker fade-in">
+        <div class="section-header">
+            <h2><span class="fr-text">Les jeux vidéo français célèbres</span><span class="en-text">Famous French Video Games</span></h2>
+            <div class="french-accent-line"></div>
+        </div>
+        <div class="game-gallery">
+            <!-- Rayman -->
+            <div class="game-card">
+                <div class="game-img-container"><img src="images/rayman.jpg" alt="Rayman"></div>
+                <div class="game-info">
+                    <h3>Rayman (1995)</h3>
+                    <p class="developer">Studio : Ubisoft (Michel Ancel)</p>
+                    <p class="fr-text">L'un des jeux de plateforme les plus vendus de son époque, reconnu pour sa direction artistique colorée.</p>
+                    <p class="en-text">One of the best-selling platformers of its era, known for its colorful art direction.</p>
+                </div>
+            </div>
+            <!-- Alone in the Dark -->
+            <div class="game-card">
+                <div class="game-img-container"><img src="images/alone-in-the-dark.jpg" alt="Alone in the Dark"></div>
+                <div class="game-info">
+                    <h3>Alone in the Dark (1992)</h3>
+                    <p class="developer">Studio : Infogrames</p>
+                    <p class="fr-text">Le pionnier du genre "survival horror", créant les bases des jeux d'horreur modernes en 3D.</p>
+                    <p class="en-text">The pioneer of the "survival horror" genre, setting the foundations for modern 3D horror games.</p>
+                </div>
+            </div>
+            <!-- Dishonored -->
+            <div class="game-card">
+                <div class="game-img-container"><img src="images/dishonored.jpg" alt="Dishonored"></div>
+                <div class="game-info">
+                    <h3>Dishonored (2012)</h3>
+                    <p class="developer">Studio : Arkane Studios (Lyon)</p>
+                    <p class="fr-text">Un jeu d'action-infiltration acclamé pour son <em>level design</em> et développé par un studio français emblématique.</p>
+                    <p class="en-text">An acclaimed action-stealth game celebrated for its level design, developed by an iconic French studio.</p>
+                </div>
+            </div>
+            <!-- A Plague Tale -->
+            <div class="game-card">
+                <div class="game-img-container"><img src="images/plague-tale.jpg" alt="A Plague Tale"></div>
+                <div class="game-info">
+                    <h3>A Plague Tale: Innocence (2019)</h3>
+                    <p class="developer">Studio : Asobo Studio (Bordeaux)</p>
+                    <p class="fr-text">Un chef-d'œuvre narratif se déroulant dans la France du Moyen Âge, salué mondialement.</p>
+                    <p class="en-text">A narrative masterpiece set in medieval France, receiving global acclaim.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. THE 2000s & 8. TODAY (Combined into a split layout for flow) -->
+    <section id="epoque-moderne" class="container fade-in">
+        <div class="grid-2-col">
+            <!-- 2000s -->
+            <div class="card" id="annees2000">
+                <h2><span class="fr-text">Les années 2000</span><span class="en-text">The 2000s</span></h2>
+                <ul class="styled-list">
+                    <li><span class="fr-text">Croissance des studios spécialisés en jeux narratifs (ex: Quantic Dream).</span><span class="en-text">Growth of studios specializing in narrative games (e.g., Quantic Dream).</span></li>
+                    <li><span class="fr-text">Expansion d'Ubisoft avec des franchises mondiales.</span><span class="en-text">Ubisoft's expansion with global franchises.</span></li>
+                    <li><span class="fr-text">Développement technologique et passage aux moteurs 3D avancés.</span><span class="en-text">Technological development and transition to advanced 3D engines.</span></li>
+                </ul>
+            </div>
+            <!-- Today -->
+            <div class="card" id="aujourdhui">
+                <h2><span class="fr-text">L'industrie aujourd'hui</span><span class="en-text">The Industry Today</span></h2>
+                <ul class="styled-list">
+                    <li><span class="fr-text">Forte scène de développeurs indépendants (ex: Motion Twin avec <em>Dead Cells</em>).</span><span class="en-text">Strong independent developer scene (e.g., Motion Twin with <em>Dead Cells</em>).</span></li>
+                    <li><span class="fr-text">Excellence académique : Les écoles françaises (ENJMIN, Rubika) sont parmi les meilleures mondiales.</span><span class="en-text">Academic excellence: French schools (ENJMIN, Rubika) are among the best globally.</span></li>
+                    <li><span class="fr-text">Soutien gouvernemental avec le Crédit d'Impôt Jeu Vidéo (CIJV).</span><span class="en-text">Government support through the Video Game Tax Credit (CIJV).</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. MAJOR INTERACTIVE TIMELINE -->
+    <section id="chronologie" class="container bg-darker fade-in">
+        <div class="section-header">
+            <h2><span class="fr-text">Chronologie Interactive</span><span class="en-text">Interactive Timeline</span></h2>
+            <p class="subtitle"><span class="fr-text">Cliquez sur les événements</span><span class="en-text">Click on the events</span></p>
+        </div>
+        <div class="main-timeline">
+            <!-- Node 1 -->
+            <div class="timeline-node" onclick="toggleTimelineContent(this)">
+                <div class="node-year">1970s</div>
+                <div class="node-content">
+                    <h4>Débuts / Early Beginnings</h4>
+                    <p class="fr-text">Importation de bornes d'arcade. Naissance de la culture informatique française.</p>
+                    <p class="en-text">Import of arcade machines. Birth of French computer culture.</p>
+                </div>
+            </div>
+            <!-- Node 2 -->
+            <div class="timeline-node" onclick="toggleTimelineContent(this)">
+                <div class="node-year">1980s</div>
+                <div class="node-content">
+                    <h4>Fondation des piliers / Pillars Founded</h4>
+                    <p class="fr-text">Création d'Infogrames (1983) et d'Ubisoft (1986). Émergence de la "French Touch".</p>
+                    <p class="en-text">Creation of Infogrames (1983) and Ubisoft (1986). Emergence of the "French Touch".</p>
+                </div>
+            </div>
+            <!-- Node 3 -->
+            <div class="timeline-node" onclick="toggleTimelineContent(this)">
+                <div class="node-year">1990s</div>
+                <div class="node-content">
+                    <h4>Succès Mondiaux / Global Success</h4>
+                    <p class="fr-text">Sortie d'Alone in the Dark (1992) et Rayman (1995). La France devient exportatrice.</p>
+                    <p class="en-text">Release of Alone in the Dark (1992) and Rayman (1995). France becomes an exporter.</p>
+                </div>
+            </div>
+            <!-- Node 4 -->
+            <div class="timeline-node" onclick="toggleTimelineContent(this)">
+                <div class="node-year">2000s</div>
+                <div class="node-content">
+                    <h4>L'ère des studios / Studio Era</h4>
+                    <p class="fr-text">Création d'Arkane Studios, Quantic Dream s'impose dans le jeu narratif.</p>
+                    <p class="en-text">Creation of Arkane Studios, Quantic Dream establishes itself in narrative gaming.</p>
+                </div>
+            </div>
+            <!-- Node 5 -->
+            <div class="timeline-node" onclick="toggleTimelineContent(this)">
+                <div class="node-year">Aujourd'hui</div>
+                <div class="node-content">
+                    <h4>Indépendants & AAA / Indies & AAA</h4>
+                    <p class="fr-text">Succès massifs avec des jeux comme Dead Cells et A Plague Tale. Scène e-sport active.</p>
+                    <p class="en-text">Massive success with games like Dead Cells and A Plague Tale. Active esports scene.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. DID YOU KNOW? -->
+    <section id="saviezvous" class="container fade-in">
+        <div class="section-header">
+            <h2><span class="fr-text">Le saviez-vous ?</span><span class="en-text">Did You Know?</span></h2>
+        </div>
+        <div class="facts-grid">
+            <div class="fact-card">
+                <i class="fa-solid fa-money-bill-wave fact-icon"></i>
+                <p class="fr-text">La France offre un crédit d'impôt spécial (CIJV) pour encourager les studios à développer leurs jeux sur le territoire.</p>
+                <p class="en-text">France offers a special tax credit (CIJV) to encourage studios to develop their games in the country.</p>
+            </div>
+            <div class="fact-card">
+                <i class="fa-solid fa-network-wired fact-icon"></i>
+                <p class="fr-text">Avant internet, le réseau français Minitel hébergeait déjà des jeux multijoueurs basés sur du texte !</p>
+                <p class="en-text">Before the internet, the French Minitel network already hosted text-based multiplayer games!</p>
+            </div>
+            <div class="fact-card">
+                <i class="fa-solid fa-users fact-icon"></i>
+                <p class="fr-text">La "Paris Games Week" est l'un des 5 plus grands salons de jeux vidéo au monde.</p>
+                <p class="en-text">The "Paris Games Week" is one of the top 5 largest video game conventions in the world.</p>
+            </div>
+            <div class="fact-card">
+                <i class="fa-solid fa-ghost fact-icon"></i>
+                <p class="fr-text">Le terme "Survival Horror" a été inspiré par le jeu français Alone in the Dark, bien avant Resident Evil.</p>
+                <p class="en-text">The term "Survival Horror" was inspired by the French game Alone in the Dark, well before Resident Evil.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. IMAGE GALLERY -->
+    <section id="galerie" class="container bg-darker fade-in">
+        <div class="section-header">
+            <h2><span class="fr-text">Galerie d'images</span><span class="en-text">Image Gallery</span></h2>
+        </div>
+        <div class="gallery-grid">
+            <!-- Gallery images. Clicking triggers the lightbox -->
+            <img src="images/1980s.jpg" alt="1980s French Gaming" class="gallery-img" onclick="openLightbox(this)">
+            <img src="images/beyond-good-evil.jpg" alt="Beyond Good & Evil" class="gallery-img" onclick="openLightbox(this)">
+            <img src="images/modern-industry.jpg" alt="Modern Game Studio" class="gallery-img" onclick="openLightbox(this)">
+        </div>
+    </section>
+
+    <!-- LIGHTBOX OVERLAY -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
+    </div>
+
+   <!-- 21. TEAM SECTION -->
+<section id="equipe" class="container fade-in">
+    <div class="section-header">
+        <h2><span class="fr-text">Notre équipe</span><span class="en-text">Our Team</span></h2>
+        <p class="subtitle">
+            <span class="fr-text">Groupe 10 | SRM Institute of Science and Technology</span>
+            <span class="en-text">Group 10 | SRM Institute of Science and Technology</span>
+        </p>
+    </div>
+    <div class="team-grid">
+        <!-- EDIT HERE: Do not change registration numbers as requested -->
+        <div class="team-card">
+            <img class="avatar" src="images/priyadarshan.jpg" alt="Priyadarshan S">
+            <h3>Priyadarshan S</h3>
+            <p class="reg-no">RA2611029010009</p>
+            <p class="Designation ">Project Coordinator & Web Developer</p>
+        </div>
+        <div class="team-card">
+            <img class="avatar" src="images/mithun.jpg" alt="Mithun D S">
+            <h3>Mitthun D S</h3>
+            <p class="reg-no">RA2611029010010</p>
+            <p class="Designation ">Research & Content Lead</p>
+        </div>
+        <div class="team-card">
+            <img class="avatar" src="images/snow.jpg" alt="Snow Shreya">
+            <h3>Snow Shreya P</h3>
+            <p class="reg-no">RA2611029010015</p>
+            <p class="Designation ">Project Coordinator & Research/Content Lead</p>
+        </div>
+        <div class="team-card">
+            <img class="avatar" src="images/snija.jpg" alt="Snija">
+            <h3>Snijamol Vidhu</h3>
+            <p class="reg-no">RA2611029010041</p>
+            <p class="Designation ">Web Support & French Language Lead</p>
+        </div>
+        <div class="team-card">
+            <img class="avatar" src="images/thanuj.jpg" alt="Thanuj">
+            <h3>Thanuj</h3>
+            <p class="reg-no">RA2611029010055</p>
+            <p class="Designation ">Web Structure & Technical Lead</p>
+        </div>
+    </div>
+    <div class="faculty-note">
+        <p><span class="fr-text">Faculté :</span><span class="en-text">Faculty:</span> Ms. A. Manju Rekha | <span class="fr-text">Cours :</span><span class="en-text">Course:</span> 26LCA1003J/French</p>
+        <p class="fr-text" style="font-size: 0.9rem; margin-top: 10px; color: #aaa;">Ce projet permet de développer nos compétences en français, notre capacité de recherche, notre communication, notre travail d'équipe, notre créativité et nos compétences de base en développement web.</p>
+        <p class="en-text" style="font-size: 0.9rem; margin-top: 10px; color: #aaa;">This project helps develop our French language skills, research ability, communication, teamwork, creativity, and basic web development skills.</p>
+    </div>
+</section>
+
+    <!-- 22. SOURCES / REFERENCES -->
+    <section id="references" class="container bg-darker fade-in">
+        <div class="section-header">
+            <h2><span class="fr-text">Références</span><span class="en-text">References</span></h2>
+        </div>
+        <div class="reference-list">
+            <a href="final_review_pbl_group_10.pdf" target="_blank" class="ref-card">
+                <i class="fa-solid fa-file-pdf"></i>
+                <div>
+                    <h4>Document de Projet Interne</h4>
+                    <p>Review Sheet - SRM Institute of Science and Technology (final_review_pbl_group_10.pdf)</p>
+                </div>
+            </a>
+            <a href="image_99cd2e.jpg" target="_blank" class="ref-card">
+                <i class="fa-solid fa-image"></i>
+                <div>
+                    <h4>Présentation PBL (image_99cd2e.jpg)</h4>
+                    <p>Notes d'orientation du projet (Diapositives 1 à 8)</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- 23. FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>L'histoire des jeux vidéo en France</h3>
+                <p>French PBL Project - Group 10</p>
+                <p>SRM Institute of Science and Technology, Kattankulathur[cite: 1]</p>
+            </div>
+            <div class="footer-links">
+                <a href="#accueil"><span class="fr-text">Accueil</span><span class="en-text">Home</span></a>
+                <a href="#debuts"><span class="fr-text">Débuts</span><span class="en-text">Origins</span></a>
+                <a href="#equipe"><span class="fr-text">Équipe</span><span class="en-text">Team</span></a>
+                <a href="#references"><span class="fr-text">Références</span><span class="en-text">References</span></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Group 10 PBL. <span class="fr-text">Créé pour l'apprentissage.</span><span class="en-text">Created for educational purposes.</span></p>
+        </div>
+    </footer>
+
+    <!-- 24. BACK TO TOP BUTTON -->
+    <button id="backToTop" class="back-to-top" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
