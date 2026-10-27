@@ -311,7 +311,7 @@ nav a:hover, nav a.active {
 /* --- 6. FAMOUS GAMES GALLERY --- */
 .game-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 30px;
 }
 
@@ -465,16 +465,24 @@ nav a:hover, nav a.active {
 /* --- 11. IMAGE GALLERY & LIGHTBOX --- */
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
 }
 .gallery-img {
     width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
+    height: 260px;              /* Increased height so pictures are clearly visible */
+    object-fit: cover;           /* Keeps proper proportions without distortion */
+    object-position: center;     /* Centers the focus of the photo */
+    border-radius: 12px;
+    border: 1px solid var(--card-border);
     cursor: pointer;
-    transition: opacity 0.3s;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+}
+.gallery-img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 24px rgba(0, 240, 255, 0.25);
+    opacity: 0.9;
 }
 .gallery-img:hover { opacity: 0.7; }
 
@@ -539,7 +547,7 @@ nav a:hover, nav a.active {
     margin: 0 auto 12px auto;
     border: 2px solid rgba(255, 255, 255, 0.2); /* optional: gives a subtle clean border */
 }
-}
+
 .reg-no {
     font-size: 0.8rem;
     color: var(--text-muted);
